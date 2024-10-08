@@ -1,0 +1,24 @@
+h1{
+    color: blue;
+}
+.box{
+    height: 50px;
+    border: 2px;
+}
+.first{
+    color: solid black;
+    background-color: lightgreen;
+
+}
+.second{
+    color: black ;
+    background-color:  #ddaefa;
+}
+.ucbox{
+    color: black;
+    background-color: rgb(155,55,128)
+}
+.fourbox{
+    color: black;
+    background-color : hsl(60, 22% , 50%)
+}
