@@ -1,0 +1,33 @@
+.bluee{
+    background-color: blue;
+    height: 300;
+    width: 300;
+    border-radius: 10%;
+}
+.yeloww{
+    background-color: yellow;
+    height: 300;
+    width: 300;
+    border-top-left-radius: 20%;
+    border-bottom-right-radius: 20% ;
+    border-top-right-radius: 10%;
+    border-bottom-left-radius: 10%;
+}
+.blacck {
+    background-color: rgb(11, 2, 19);
+    height: 300;
+    width: 300;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 40% ;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+}
+.redd{
+    background-color: red;
+    height: 300;
+    width: 300;
+    border-top-left-radius: 10%;
+    border-bottom-right-radius: 10% ;
+    border-top-right-radius: 40%;
+    border-bottom-left-radius: 40%;
+}
