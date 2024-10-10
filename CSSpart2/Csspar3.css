@@ -1,0 +1,61 @@
+    
+    
+    
+    .qovluqlar{
+    background-color: rgb(216, 211, 211);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    margin-left: 320px;
+    margin-top: 100px;
+
+}
+.qovluqlar1{
+    background-color: rgb(216, 211, 211);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+
+  margin-left: 40;
+  margin-top: 100px;
+
+}
+.qovluqlar2{
+    background-color: rgb(216, 211, 211);
+    width: 400px;
+    height: 200px;
+    text-align: center;
+    display: block;
+    margin-left: 40;
+    margin-top: 100px;
+   
+
+}
+.all{
+    display: flex;
+    margin-top: 40px;
+}
+.all2{
+    display: flex;
+    margin-top: 40px;
+}
+
+
+.all .qovluqlar .fa-solid{
+    color: rgb(0, 38, 255);
+}
+.all .qovluqlar2 .fa-solid{
+    color: rgb(0, 38, 255);
+}
+.all .qovluqlar1 .fa-solid{
+    color: rgb(0, 38, 255);
+}
+.all2 .qovluqlar .fa-solid{
+    color: rgb(0, 38, 255);
+}
+.all2 .qovluqlar1 .fa-solid{
+    color: rgb(0, 38, 255);
+}
+.all2 .qovluqlar2 .fa-solid{
+    color: rgb(0, 38, 255);
+}

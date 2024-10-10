@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+    font-family: "Edu AU VIC WA NT Dots", cursive;
+    font-style: normal;
+}
+
+
+
+h3{
+  color: rgb(94, 8, 8);
+padding: 40;
+}
+.container{
+    height: 40rem;
+
+    background-image: url(https://t3.ftcdn.net/jpg/04/12/82/16/360_F_412821610_95RpjzPXCE2LiWGVShIUCGJSktkJQh6P.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+.h111{
+    font-style: initial;
+   
+margin-top: 10px   ;
+   font-size: 50;
+}
+.h11{
+    font-style: initial;
+   font-size: 50;
+}
+ 
+.metn{
+    font-size: 20;
+    margin-top: 10px;
+}
+.buton{
+    background-color: white;
+    color: black;
+    width: 130;
+    height: 30;
+    text-align: center;
+    margin-top: 40;
+    border-radius: 29%;
+   border: solid black;
+}
+.social-icons{
+    margin-top: 50px;
+ 
+}
+.social-icons i{
+    margin-left: 30;
+  
+}
+
+
+}
