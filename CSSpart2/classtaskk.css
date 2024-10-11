@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+   
+    padding: 200px;
+
+
+}
+
+.products {
+    display: flex;
+    
+}
+.products .product-card{
+    width: 20%;
+    border: solid rgb(189, 185, 185);
+    margin-left: 40px;
+    width: 300px;
+    border-radius: 5%;
+    
+
+}
+.products .product-card img{
+    
+    width: 100%;
+}
+.stars{
+    color: rgb(197, 161, 2);
+}
