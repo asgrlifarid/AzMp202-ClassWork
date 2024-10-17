@@ -1,0 +1,88 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+
+
+}
+
+.container div {
+    background-color: rgb(6, 164, 255);
+    padding: 30 0;
+    text-align: center;
+}
+
+.container .grid-1 {
+    grid-row-start: 1;
+    grid-row-end: 3;
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.container .grid-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+
+}
+
+.container .grid-5 {
+    grid-column-start: 2;
+    grid-column-end: 5;
+
+}
+
+.container .grid-6 {
+    grid-row: 3;
+
+
+}
+
+.container2 {
+    display: grid;
+    gap: 10px 10px;
+    grid-auto-flow: row;
+    margin-top: 20px;
+
+}
+
+.container2 div {
+    background-color: brown;
+    padding: 30 0;
+    text-align: center;
+}
+
+.container2 .grid--1 {
+    grid-column: span 12;
+}
+
+.container2 .grid--2 {
+    grid-column: span 6;
+}
+
+.container2 .grid--3 {
+    grid-column: span 4;
+}
+
+.container2 .grid--4 {
+    grid-column: span 3;
+}
+
+.container2 .grid--5 {
+    grid-column: span 2;
+}
+.container3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 20px 20px;
+    grid-auto-flow: row;
+}
+.container3 div{
+    background-color: cyan;
+}
+.container3 .grid---2{
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
