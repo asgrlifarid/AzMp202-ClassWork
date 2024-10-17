@@ -116,3 +116,27 @@
     padding-left: 150px;
     padding-top: 200px;
 }
+.texxt input{
+    display: block;
+ margin-top:  20px;
+ margin-left: 200px;
+ width: 500px;
+ height: 75px;
+ border-radius: 5%;
+}
+.contactus{
+    background-image: url(https://pureservices.com.au/wp-content/uploads/2018/03/responsive-world-map.png);
+    background-position: center;
+   
+}
+#map{
+    padding-left: 140px;
+    padding-top: 40px;
+ padding-right: 10%;
+ max-width: 100%;
+
+}
+.texxt{
+    display: flex;
+    justify-content: space-between;
+}
