@@ -1,0 +1,228 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 200px auto;
+    gap: 2rem;
+    text-align: center;
+    color: white;
+
+}
+
+.cards .card {
+    width: 100px;
+    height: 100px;
+    border: 1px;
+
+}
+
+.cards .card1 {
+    background-color: rgb(148, 10, 10);
+}
+
+.cards .card2 {
+    background-color: green;
+}
+
+.cards .card3 {
+    background-color: rgb(67, 0, 94);
+}
+
+.cards .card4 {
+    background-color: rgb(255, 174, 0);
+}
+
+.cards .card1:hover {
+    transform: scale(1.7);
+    background-color: rgb(148, 10, 10);
+
+}
+
+.cards .card:hover h2 {
+    display: block;
+}
+
+.cards .card2:hover {
+    transform: translate(100px, -120px);
+    transition: 1s;
+    background-color: green;
+}
+
+.cards h2 {
+    display: none;
+}
+
+.cards .card:hover span {
+    display: none;
+}
+
+.cards .card3:hover {
+    transform: rotate(360deg);
+    transition: 1s;
+
+}
+
+.cards .card4:hover {
+    transform: skew(20deg, 10deg);
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    padding: 50 50;
+    position: relative;
+}
+
+.row .col-4 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.row h1 {
+    padding-top: 90px;
+    text-align: center;
+
+}
+
+.row img {
+    position: absolute;
+    left: 45%;
+}
+
+.row p {
+    padding-top: 90px;
+    text-align: center;
+
+
+}
+
+.row button {
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 140px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+
+
+
+
+
+.row2 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50 50;
+    position: relative;
+    gap: 2rem;
+}
+
+.row2 .col-3 {
+    width: 400px;
+    height: 400px;
+    background-color: aqua;
+    border: 1px solid black;
+}
+
+.row2 h1 {
+    padding-top: 90px;
+    text-align: center;
+
+}
+
+
+.row2 p {
+    padding-top: 90px;
+    text-align: center;
+
+
+}
+
+.row2 button {
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 100px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+
+.container3 {
+    padding: 100px;
+
+}
+
+.container3 .col-3:hover {
+    transform: scale(0.6);
+    transition: 2s;
+
+}
+
+#all {
+    background-color: blue;
+}
+
+.row4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 50 50;
+
+}
+
+.row4 .col-4 {
+    width: 400px;
+    height: 400px;
+    background-color: white;
+    border: none;
+    position: relative;
+}
+.card-box{
+    position: relative;
+}
+
+.row4 h1 {
+
+    text-align: center;
+
+}
+
+
+
+.row4 p {
+    padding-top: 90px;
+    text-align: center;
+}
+
+.row4 button {
+    width: 100px;
+    height: 50px;
+    margin-top: 40px;
+    margin-left: 140px;
+    background-color: yellow;
+    border: none;
+    color: white;
+}
+
+.overlay1 {
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+    width: 0%;
+    height: 2px;
+    transition: all 0.4s;
+
+}
+.card-box:hover .overlay1{
+width: 100%;
+background-color: aqua;
+}
