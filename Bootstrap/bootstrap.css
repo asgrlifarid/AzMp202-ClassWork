@@ -1,0 +1,14 @@
+.gallery{
+    display: flex;
+    justify-content: space-between;
+}
+.text{
+    width: 50%;
+    text-align: center;
+}
+.img{
+    width: 50%;
+}
+.img img{
+    width: 100%;
+}
