@@ -1,0 +1,84 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+
+.container-card {
+  text-align: center;
+  padding: 50 0;
+}
+.container-card .cards {
+  display: flex;
+  gap: 2rem;
+}
+.container-card .cards .cart-parts {
+  padding: 50 0;
+  text-align: center;
+}
+.container-card .cards .cart-parts img {
+  width: 100%;
+}
+
+.container-card2 {
+  text-align: center;
+  padding: 50 0;
+  background-color: rgb(255, 187, 0);
+}
+.container-card2 .cards2 {
+  display: flex;
+  gap: 2rem;
+}
+.container-card2 .cards2 .cart-parts2 {
+  padding: 50 0;
+  text-align: center;
+}
+.container-card2 .cards2 .cart-parts2 img {
+  border-radius: 50%;
+}
+
+.mainn {
+  height: 300px;
+  background-color: green;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+}
+.mainn .main-btn {
+  width: 200px;
+  height: 30px;
+  background-color: blue;
+  color: white;
+}
+.mainn h1 {
+  font-size: 50;
+}
+.mainn p {
+  font-size: 20;
+}
+
+.header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: black;
+  height: 50px;
+  gap: 50px;
+}
+.header .container ul {
+  display: flex;
+  gap: 20px;
+}
+@media only screen and (max-width: 767px) {
+  .header .container ul {
+    display: none;
+  }
+}
+.header .header-btn {
+  background-color: white;
+  color: black;
+}/*# sourceMappingURL=main.css.map */

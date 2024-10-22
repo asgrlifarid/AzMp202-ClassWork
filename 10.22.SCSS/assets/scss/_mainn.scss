@@ -1,0 +1,22 @@
+.mainn {
+    height: 300px;
+    background-color: green;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3rem;
+    .main-btn {
+      width: 200px;
+      height: 30px;
+      background-color: blue;
+      color: white;
+    }
+    h1 {
+      font-size: 50;
+    }
+    p {
+      font-size: 20;
+    }
+  }
