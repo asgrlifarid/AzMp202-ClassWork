@@ -1,0 +1,33 @@
+.head-container{
+    height: 100px;
+    background-color: #fff;
+    @include     flex-style;
+    nav ul{
+        @include flex-style;
+        gap: 2rem;
+    }
+    .head-items{
+        @include flex-style;
+        gap: 2rem   ;
+    }
+}
+.header-2{
+    @include flex-style;
+    background-color: $bgc-secondary;
+    .header-2-left{
+        max-width: 50%;
+        h1{
+            padding: 3rem 3rem;
+        }
+        p{
+            padding: 3rem 3rem;
+        
+    }
+    .header-2-right {
+img{
+    width: 80%;
+    height: 40%;
+}
+    }
+    }
+}

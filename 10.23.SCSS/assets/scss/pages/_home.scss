@@ -1,0 +1,17 @@
+    .clocks{
+        padding-top: 40px;
+        text-align: center;
+        .cards{
+            padding-top: 40px;
+            .row{
+                .col-4{
+                    img{
+                        max-width: 50%
+                    }
+                    display: flex;
+                  align-items: center;
+                    flex-direction: column;
+                }
+            }
+        }
+    }
