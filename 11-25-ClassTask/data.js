@@ -1,4 +1,4 @@
-export const BASE_URL="http://localhost:3000"
+export const BASE_URL = "https://frdo-local.vercel.app";
 // export let endpoint;
 export async function getAllData(endpoint){
     const res=await axios(`${BASE_URL}/${endpoint}`);
