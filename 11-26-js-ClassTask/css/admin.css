@@ -1,0 +1,37 @@
+
+button {
+    font-size: 14px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.3s ease; 
+}
+
+
+button.btn-edit {
+    background-color: #007bff; 
+    color: white; 
+}
+
+button.btn-edit:hover {
+    background-color: #0056b3; 
+    border-color: #004085;
+}
+
+
+button.btn-delete {
+    background-color: #dc3545; 
+    color: white;
+}
+
+button.btn-delete:hover {
+    background-color: #c82333; 
+    border-color: #bd2130;
+}
+
+
+button:hover {
+    opacity: 0.9; 
+}

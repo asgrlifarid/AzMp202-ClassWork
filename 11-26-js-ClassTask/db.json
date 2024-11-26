@@ -1,0 +1,79 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "John Doe",
+      "email": "johndoe@example.com",
+      "password": "hashed_password",
+      "role": "user",
+      "profilePicture": "https://example.com/profile.jpg",
+      "createdAt": "2024-11-25",
+      "basket": [
+        {
+          "productId": 1,
+          "quantity": 2
+        },
+        {
+          "productId": 2,
+          "quantity": 1
+        }
+      ],
+      "favorites": [
+        {
+          "productId": 3
+        },
+        {
+          "productId": 1
+        }
+      ]
+    }
+  ],
+  "products": [
+    {
+      "id": "46eb",
+      "name": "farid",
+      "price": "342",
+      "description": "JOHCENAHASSDASA",
+      "stock": "345",
+      "image": "EDE"
+    },
+    {
+      "id": "e24c",
+      "name": "WS",
+      "price": "3",
+      "description": "SWQA",
+      "stock": "3",
+      "image": "WQSD"
+    },
+    {
+      "id": "cd23",
+      "name": "D",
+      "price": "45",
+      "description": "RAE",
+      "stock": "4",
+      "image": "WSD"
+    }
+  ],
+  "categories": [
+    {
+      "name": "test",
+      "createdAt": "2024-11-26",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Smartphones",
+      "createdAt": "2024-11-25"
+    },
+    {
+      "name": "Gaming",
+      "createdAt": "2024-11-26",
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Accessories",
+      "createdAt": "2024-11-25"
+    }
+  ]
+}
